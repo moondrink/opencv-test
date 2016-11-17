@@ -1,0 +1,4 @@
+指定安装目录为 build
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=./build .   
+make
+make install
